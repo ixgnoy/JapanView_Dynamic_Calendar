@@ -21,6 +21,28 @@ h1{
     margin: 0 auto;
     display: block;
 }
+/* Media queries for different screen sizes */
+
+@media only screen and (max-width: 768px) {
+  /* Styles for smaller screens (e.g., mobile devices) */
+  .calendar-image {
+    width: 80%; /* Adjust width for smaller screens */
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  /* Styles for medium screens (e.g., tablets) */
+  .calendar-image {
+    width: 70%; /* Adjust width for medium screens */
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  /* Styles for larger screens (e.g., desktops) */
+  .calendar-image {
+    /* Use default styles or adjust further for larger screens */
+  }
+}
 
 .container-calendar {
     background: #ffffff;
